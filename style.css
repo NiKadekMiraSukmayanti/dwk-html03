@@ -1,0 +1,56 @@
+/* Add styles here */
+body{
+    background-image: url("images/latihanhtml03.jpg");
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding:0px;
+    background-color: white;
+    opacity: 50%;
+}
+.navbarmenu{
+    text-align: right;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenulist > li >a:hover{
+    font-weight: bold;
+  
+}
+.navbarjudul{
+    text-decoration: none;
+    color:darkgreen;
+    font-size: 2em;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    text-shadow: 2px 2px 8px black    
+}
+#txhello{
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 25%;
+    color: white;
+}
+#btn1{
+    position: relative;
+    font-size: 15px;
+    padding: 8px 35px;
+    border-radius: 18px;
+    top: 180px;
+    left: 25%;
+}
+#btn1:hover{
+    color: black;
+}
